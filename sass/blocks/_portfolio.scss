@@ -1,0 +1,53 @@
+.block-portfolio {
+    .portfolio {
+        .portfolio-card {
+            position: relative;
+            height: 100%;
+        }
+        .portfolio-image {
+            position: relative;
+            padding-top: 56.25%;
+            overflow: hidden;
+            @include border-radius(2px);
+            picture {
+                padding: 10px;
+                overflow: hidden;
+            }
+        }
+        .portfolio-detail {
+            padding: 16px 24px 24px;
+        }
+        .portfolio-title {
+            margin: 0;
+            font-size: 1.8rem;
+            line-height: 1.4;
+            @media (min-width: $screen-md) {
+                font-size: 2rem;
+            }
+        }
+        .portfolio-meta {
+            margin-top: 4px;
+            font-size: 1.6rem;
+            line-height: 1.5;
+        }
+        .portfolio-link {
+            z-index: 2;
+            font-size: 0;
+        }
+    }
+    .list-portfolio {
+        display: flex;
+        flex-wrap: wrap;
+        @media (min-width: ($screen-xs + 160)) {
+            margin: 0 -16px;
+        }
+        .portfolio {
+            padding: 0 0 24px;
+            width: 100%;
+            @media (min-width: ($screen-xs + 160)) {
+                padding: 0 16px 32px;
+                width: 50%;
+            }
+        }
+    }
+}

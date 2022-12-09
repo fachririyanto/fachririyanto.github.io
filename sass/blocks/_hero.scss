@@ -1,0 +1,27 @@
+.block-hero {
+    padding: 100px 0 40px;
+    @media (min-width: $screen-sm) {
+        padding: 160px 0 80px;
+    }
+    .hero-wrapper {
+        max-width: $reading-width;
+    }
+    .hero-title {
+        margin: 0;
+        font-size: 4rem;
+        font-weight: 500;
+        line-height: 1.1;
+        @media (min-width: $screen-sm) {
+            font-size: 4.8rem;
+        }
+    }
+    .hero-description {
+        margin-top: 24px;
+        font-size: 1.8rem;
+        line-height: 1.725;
+        @media (min-width: $screen-sm) {
+            font-size: 2rem;
+            line-height: 1.8;
+        }
+    }
+}

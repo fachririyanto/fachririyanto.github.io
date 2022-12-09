@@ -1,0 +1,36 @@
+/**
+ * Theme color.
+ */
+ $primary-color: #222;
+
+ /**
+  * Text color.
+  */
+ $text-color: #222;
+ $text-secondary: #555;
+ 
+ /**
+  * Border color.
+  */
+ $border-thin: rgba(0,0,0,.05);
+ $border-color: rgba(0,0,0,.15);
+ $border-focus: rgba(0,0,0,.2);
+ 
+ /**
+  * Font family.
+  */
+ $font-default: 'Lora', serif;
+ 
+ /**
+  * Element.
+  */
+ $container-width: 1100px;
+ $reading-width: 640px;
+ 
+ /**
+  * Media queries.
+  */
+ $screen-xs: 480px;
+ $screen-sm: 768px;
+ $screen-md: 960px;
+ $screen-lg: 1200px;
