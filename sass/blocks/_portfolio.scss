@@ -10,8 +10,11 @@
             overflow: hidden;
             @include border-radius(2px);
             picture {
-                padding: 10px;
+                padding: 6px;
                 overflow: hidden;
+                @media (min-width: $screen-md) {
+                    padding: 10px;
+                }
             }
         }
         .portfolio-detail {
